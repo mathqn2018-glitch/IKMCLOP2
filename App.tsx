@@ -65,7 +65,9 @@ const App: React.FC = () => {
       </main>
 
       {/* Footer mini-game bar or status */}
-      <footer className="bg-white border-t py-4 text-center text-gray-500 text-sm">
+      <footer className="bg-white border-t py-4 text-center text-gray-500 text-sm space-y-1">
+        <p className="font-medium text-gray-700">Nội dung được phát triển bởi <span className="text-blue-600">PHAN THỊ NGỌC THÁI</span></p>
+        <p>Liên hệ: <a href="mailto:mathqn2018@gmail.com" className="text-blue-500 hover:underline">mathqn2018@gmail.com</a></p>
         <p>© 2024 Kangaroo Math Explorer - Chúc bé học tốt! 🚀</p>
       </footer>
     </div>
