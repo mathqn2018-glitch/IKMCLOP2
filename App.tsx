@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { AppScreen, UserProgress, Problem } from './types';
+import { AppScreen, UserProgress } from './types';
 import { SAMPLE_PROBLEMS } from './constants';
 import Header from './components/Header';
 import HomeScreen from './components/HomeScreen';
@@ -54,12 +54,12 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header 
-        onNavigate={setCurrentScreen} 
-        currentScreen={currentScreen} 
+      <Header
+        onNavigate={setCurrentScreen}
+        currentScreen={currentScreen}
         progress={progress}
       />
-      
+
       <main className="flex-grow container mx-auto px-4 py-6 max-w-4xl">
         {renderScreen()}
       </main>
