@@ -1,0 +1,7 @@
+{
+  "name": "Kangaroo Math Explorer - Lớp 2",
+  "description": "Ứng dụng học Toán tư duy IKMC dành cho học sinh lớp 2 với sự hỗ trợ của AI Gemini, giúp trẻ rèn luyện logic và chuẩn bị cho kỳ thi quốc tế.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
